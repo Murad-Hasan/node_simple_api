@@ -11,7 +11,7 @@ const userData = require('./user.json');
 const commentsData = require('./comments.json');
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Server Running!');
 });
 
 app.get('/service', (req, res) => {
